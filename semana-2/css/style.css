@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 1em = 16 px */
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+nav{
+    border: solid red;
+    display: flex;
+    justify-content: space-between; /* alineación horizontal*/
+}
+
+.nav-list {
+    border: solid green;
+    display: flex;
+    list-style: none;
+    gap: 0px;
+
+}
+
