@@ -11,13 +11,22 @@ nav{
     border: solid red;
     display: flex;
     justify-content: space-between; /* alineación horizontal*/
+    background-color: rgba(123, 74, 226, 0.5);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .nav-list {
     border: solid green;
     display: flex;
     list-style: none;
-    gap: 0px;
+    gap: 20px;
+}
 
+.nav-list > li > a {
+    text-decoration: none;
+    color: white;
 }
 
